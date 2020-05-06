@@ -1,0 +1,14 @@
+{application, game_alg,
+ [{description, "An OTP library"},
+  {vsn, "0.1.2"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["MIT"]},
+  {links, [{"github", "https://github.com/arthasyou/erl-game_alg"}]}
+ ]}.
